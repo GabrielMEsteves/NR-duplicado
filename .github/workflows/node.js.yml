@@ -26,4 +26,4 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: ls -la
-    - run: cd ./2023.1-EscalaCOPOM-login && npm install && npm start && ls -la
+    - run: cd ./2023.1-EscalaCOPOM-login && npm install && ls -la
