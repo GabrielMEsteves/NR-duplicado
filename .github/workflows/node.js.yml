@@ -30,9 +30,9 @@ jobs:
       run: |
           cd ./2023.1-NRControl-login && cd ./frontend2 && npm install
           npm run build
-    - run: ls -la
-    
+          ls -la    
     - name: BackEnd
       run: |
-          pwd
-          la -la
+          cd ./2023.1-NRControl-login && cd ./backend && npm install
+          ls -la
+          
