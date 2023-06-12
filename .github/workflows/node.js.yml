@@ -34,4 +34,4 @@ jobs:
     
     - name: BackEnd
       run: |
-          cd ./2023.1-NRControl-Login && cd ./backend && npm install
+          cd ../backend && npm install
