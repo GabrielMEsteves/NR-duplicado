@@ -25,6 +25,9 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
+        
+    - name: Install dependencies
+      run: |
+          cd ./2023-1-NRControl-login && cd ./frontend && npm install
+          cd ./2023-1-NRControl-login && cd ./backend && npm install
     - run: ls -la
-    - run: cd ./2023.1-NRControl-login && cd ./frontend2 && npm install  && ls -la && npm run build
-    - run: cd ./2023.1-NRControl-login && cd ./backend && npm install && ls -la
