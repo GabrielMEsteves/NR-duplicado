@@ -34,4 +34,5 @@ jobs:
     
     - name: BackEnd
       run: |
-          cd ../backend && npm install
+          pwd
+          la -la
