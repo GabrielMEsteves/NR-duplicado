@@ -28,6 +28,6 @@ jobs:
         
     - name: Install dependencies
       run: |
-          cd ./2023-1-NRControl-login && cd ./frontend && npm install
-          cd ./2023-1-NRControl-login && cd ./backend && npm install
+          cd ./2023.1-NRControl-login && cd ./frontend && npm install
+          cd ./2023.1-NRControl-login && cd ./backend && npm install
     - run: ls -la
