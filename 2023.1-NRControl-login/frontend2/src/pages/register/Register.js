@@ -6,7 +6,6 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import {
   BsFillPersonDashFill,
-  BsPersonBadge,
   BsPersonFillGear,
   BsFillPersonPlusFill,
 } from "react-icons/bs";
